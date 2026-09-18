@@ -2,24 +2,17 @@
 <html>
     <head>
         <!-- This is a coffee site for assignment 1. -->
+         
 
         <title>ARABUSTA COFFEE</title>
         <meta name="description" content="ARABUSTA, a rare coffee shop in Miami.">
         <meta name="author" content="Jonathan Padrino">
         <meta name="keywords" content="rare coffee, miami, coffee">
         <meta charset="UTF-8">
-        <style>
-            
-            body {
-                background-color: #A68160;
-                color: #402a1e;
-                font-family: Playfair Display, serif;
-                margin: 20px;
-            }
-h1{
-    color: #3E432A
-}
-        </style>
+
+        <link rel="stylesheet" href="style.css">
+
+      
         </head>
         
         <body>
@@ -29,6 +22,7 @@ h1{
             <a href="#services">Services</a>
             <a href="#order">How to Order</a>
             <a href="#gallery">Coffee Images</a>
+            <a href="#location">Location</a>
             </nav>
            
             <header>
@@ -38,7 +32,7 @@ h1{
                 </header>
                 
                 <main>
-                    <section id="about">
+                    <section id="about" class="intro">
                        
                     <h2>About ARABUSTA</h2>
                             <p>ARABUSTA is a Miami-based luxury coffee house and micro-market that serves 
@@ -53,7 +47,7 @@ h1{
                         </p>
                     
                             </section>
-                            <section id="services">
+                            <section id="services" class="coffee-list">
                             <h2>Our Services</h2>
 
                             <ul>
@@ -61,12 +55,12 @@ h1{
                             <li>Pour-over coffee</li>
                             <li>Coffee tasting flights</li>
                             <li>Whole-bean coffee bags</li>
-                            <li>private coffee tastings</li>
+                            <li>Private coffee tastings</li>
                             </ul>
 
                             </section>
 
-                            <section id="order">
+                            <section id="order" class="order-card">
                             <h2>How to Order</h2>
 
                             <ol>
@@ -80,11 +74,17 @@ h1{
                             <section id="gallery">
                             <h2>Menu Items</h2>
 
+                            <div class="gallery">
+                                <div>
+
                             <h3>Espresso</h3>
                             <img
                             src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=600&q=80"
                             alt="A small cup of espresso"
                             >
+                            </div>
+
+                           <div>
 
                             <h3>Pour-Over Coffee</h3>
                             <img
@@ -92,13 +92,37 @@ h1{
                                alt="A pour-over coffee being prepared"
                             >
 
+                           </div>
+
+                           <div>
+
                             <h3>Coffee Shop</h3>
                             <img
                             src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg"
                             alt="Inside a coffee shop"
                             >
-                            
+                           </div>
+                        </div>
 
+                            </section>
+
+                            <section id="location">
+                                <h2>Visit ARABUSTA</h2>
+
+                                <div class="info-grid">
+                                    <div class="info-box">
+                                        <h3>Location</h3>
+                                        <p>100 NE 40th Street<br>Miami, FL</p>
+                                </div>
+
+                                <div class="info-box">
+                                <h3>Hours</h3>
+                                <p>Monday-Sunday<br>
+                                    8:00am-6:00pm
+                                </p>
+
+                                </div>
+                                </div>
                             </section>
                 
                     </main>

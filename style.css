@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #A68160;
+    color: #e9e7ec;
+    font-family: "Instrument Sans", Arial, Helvetica, sans-serif;
+    margin: 20px;
+
+}
+
+header {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #4e3111;
+    font-family: "Instrument Sans",Georgia, serif;
+    font-size: 210px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+header p {
+    font-size: 36px;
+    color: #F5EBDD;
+}
+
+header p strong {
+    font-size: 48px;
+}
+
+h2{
+    color: #000000;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+    h3{
+        color: #3E432A;
+        font-family: "Instrument Sans",Georgia, serif;
+        font-size: 26px;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    nav {
+        background-color:#3E432A;
+        padding: 16px;
+        text-align: center;
+    }
+
+    nav a {
+        color: #F5EBDD;
+        text-decoration: none;
+        margin: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    nav a:hover{
+        color: #D99559;
+        text-decoration: underline;
+    }
+
+    .intro {
+        background-color: #D99559;
+        margin: 20px;
+        padding: 25px;
+        border-radius: 12px;
+        text-align: center;
+
+    }
+.coffee-list {
+    background-color:#592411 ;
+    color: #F5EBDD;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+
+.coffee-list h2{
+    color:#F5EBDD ;
+
+}
+
+.coffee-list ul{
+    list-style-position: inside;
+    padding: 0;
+    text-align: center;
+}
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin:20px;
+   text-align: center;
+}
+
+.gallery img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #3e432a;
+    border-radius: 12px;
+    box-shadow: 7px 7px 0 #402a1e;
+    
+}
+
+#gallery h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 55px;
+
+}
+
+.order-card{
+    background-color: #D99559;
+    color: #402a1e;
+    margin:20px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.order-card ol{
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+
+}
+
+.info-box {
+    background-color: #D99559;
+    color: #402a1e;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#location h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
