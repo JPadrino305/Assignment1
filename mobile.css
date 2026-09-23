@@ -1,0 +1,13 @@
+@import url(style.css);
+
+header, main, footer{
+    width: 375px;
+}
+
+nav ul{
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    height: auto;
+    position:sticky
+    
+}
