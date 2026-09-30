@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gotu&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: #A68160;
+    background-color: #000000;
     color: #e9e7ec;
     font-family: "Instrument Sans", Arial, Helvetica, sans-serif;
     margin: 20px;
@@ -160,4 +160,44 @@ h2{
     text-align: center;
     margin-top: 40px;
     margin-bottom: 55px;
+}
+
+#orderAhead {
+  background-color: #3E432A;
+  color: #F5EBDD;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+
+}
+
+#pickupForm {
+  display: none;
+  margin-top: 20px;
+}
+
+#pickupForm label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+#pickupForm input,
+#pickupForm select {
+  padding: 10px;
+  margin-top: 5px;
+  font-family: "Instrument Sans", Arial, sans-serif;
+}
+
+#orderMessage {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+#orderAhead h2,
+#orderAhead label,
+#orderAhead p {
+  color: #F5EBDD;
 }

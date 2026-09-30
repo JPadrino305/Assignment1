@@ -29,10 +29,44 @@
             </nav>
            
             <header>
-                <h1>ARABUSTA</h1>
+                <h1 id="brandTitle">ARABUSTA</h1>
                 <p><strong>Coffee without copies.</strong></p>
                 <p>A rare coffee shop in Miami,FL.</p>
                 </header>
+
+                
+<section id="orderAhead">
+  <h2>Order Ahead</h2>
+
+  <button id="openOrderButton">Start a Pickup Order</button>
+
+  <form id="pickupForm">
+    <label for="customerName">Your Name</label>
+    <input type="text" id="customerName" required>
+
+    <label for="coffeeChoice">Choose a Coffee</label>
+    <select id="coffeeChoice">
+      <option value="">Choose a rare coffee</option>
+      <option value="Panama Geisha">Panama Geisha</option>
+      <option value="Colombia Pink Bourbon">Colombia Pink Bourbon</option>
+      <option value="Ethiopia Heirloom">Ethiopia Heirloom</option>
+    </select>
+
+    <p id="coffeeDescription">Select a coffee to view its tasting notes.</p>
+
+    <label for="pickupTime">Pickup Time</label>
+    <select id="pickupTime">
+      <option value="10:00 AM">10:00 AM</option>
+      <option value="11:00 AM">11:00 AM</option>
+      <option value="12:00 PM">12:00 PM</option>
+      <option value="1:00 PM">1:00 PM</option>
+    </select>
+
+    <button type="submit">Place Pickup Order</button>
+  </form>
+
+  <p id="orderMessage"></p>
+</section>
                 
                 <main>
                     <section id="about" class="intro">
@@ -51,7 +85,7 @@
                     
                             </section>
                             <section id="services" class="coffee-list">
-                            <h2>Our Services</h2>
+                            <h2 id="servicesTitle">Our Services</h2>
 
                             <ul>
                             <li>Rare coffee drinks</li>
@@ -130,7 +164,7 @@
                 
                     </main>
 
-                
+                <script src="script.js"></script>
 
         </body>
     
