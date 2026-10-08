@@ -1,0 +1,132 @@
+@media (max-width: 800px) {
+
+  html {
+    scroll-padding-top: 150px;
+  }
+
+  .site-nav {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 14px 5%;
+  }
+
+  .nav-name {
+    text-align: center;
+  }
+
+  .nav-links {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: stretch;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+
+  .hero {
+    min-height: 100vh;
+  }
+
+  .hero-content {
+    padding-top: 60px;
+  }
+
+  h1 {
+    letter-spacing: -2px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  section {
+    padding: 55px 6%;
+  }
+
+  .portrait {
+    width: 220px;
+    height: 290px;
+  }
+
+  .about-copy {
+    font-size: 22px;
+  }
+
+  .section-heading {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 35px;
+  }
+
+  .section-heading h2 {
+    font-size: 40px;
+  }
+
+  .section-description {
+    font-size: 18px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    height: 400px;
+  }
+
+  .image-dialog {
+    padding: 12px;
+  }
+
+  .close-button {
+    margin-bottom: 12px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  html {
+    scroll-padding-top: 180px;
+  }
+
+  .nav-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .section-heading h2 {
+    font-size: 34px;
+  }
+
+  .project-card img {
+    height: 320px;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal-start,
+  .title-letter {
+    transition: none;
+    transition-delay: 0ms !important;
+    transform: none;
+  }
+
+.section-heading.fade-ready {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+}

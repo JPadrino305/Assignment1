@@ -1,48 +1,238 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
 
-    <title>J.Padrino</title>
-    <meta name="description" content="Portfolio site for Jonathan Padrino">
-    <meta name="author" content="Jonathan Padrino">
-    <meta name="keywords" content="portfolio, photography, art director, graphic designer">
-    <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-    <link rel="stylesheet" href="midtermstyle.css">
-    <link rel="stylesheet" href="midtermmobile.css">
+  <title>J.Padrino | Creative Portfolio</title>
 
-    </head>
+  <meta
+    name="description"
+    content="Jonathan Padrino's photography and art direction portfolio."
+  >
 
-    <body>
+  <meta name="author" content="Jonathan Padrino">
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#photography">Photography</a>
-            <a href="#art direction">Art Direction</a>
-            <a href="#graphic design">Graphic Design</a>
-            <a href="#contact">Contact</a>
-            </nav>
-    <header>
+  <meta
+    name="keywords"
+    content="portfolio, photography, art direction"
+  >
 
-        <h1>About Me</h1>
-        <p>The J stands for Jonathan but I go by JP. I’m an Art director and Photographer specializing in the health/wellness/fitness industry. Aside from Art Direction and Photography, I’m pretty savvy at making beats, graphic design, and AI tools.</p>
+  <link rel="stylesheet" href="midtermstyle.css">
+  <link rel="stylesheet" href="midtermmobile.css">
+</head>
 
-    </header>
+<body id="top">
 
-    
-            
-<main>
+ <nav class="site-nav">
+
+  <a href="#top" id="navName" class="nav-name">
+    J.PADRINO
+  </a>
+
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#photography">Photography</a>
+    <a href="#art-direction">Art Direction</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+</nav>
+
+  <header id="hero" class="hero">
+
+    <img
+      class="hero-image"
+      src="images/hero.jpg"
+      alt="Opening photograph from Jonathan Padrino's portfolio"
+    >
+
+    <div class="hero-content">
+      <h1>J.PADRINO</h1>
+      <p>Art Direction / Photography</p>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section id="about" class="about-section">
+
+      <img
+        id="aboutPhoto"
+        class="portrait"
+        src="images/portrait.jpg"
+        alt="Jonathan Padrino"
+      >
+
+      <h2 id="aboutTitle">About Me</h2>
+
+      <p id="aboutText" class="about-copy">
+        The J stands for Jonathan, but I go by JP.
+        I’m an Art Director and Photographer specializing
+        in the health, wellness, and fitness industry.
+        Aside from art direction and photography, I’m
+        pretty savvy at making beats, graphic design,
+        and AI tools.
+      </p>
+
+    </section>
+
+    <section id="photography" class="work-section">
+
+      <div class="section-heading">
+
+        <h2>Photography</h2>
+
+        <p class="section-description">
+          A selection of my photography exploring movement,
+          people, and the health, wellness, and fitness world.
+        </p>
+
+      </div>
+
+      <div class="project-grid">
+
+        <figure class="project-card">
+          <button
+            class="image-button"
+            type="button"
+            aria-label="Enlarge fitness photograph"
+          >
+            <img
+              src="images/photography-1.jpg"
+              alt="Fitness equipment and beverage cans photographed outdoors"
+              loading="lazy"
+            >
+          </button>
+        </figure>
+
+        <figure class="project-card">
+          <button
+            class="image-button"
+            type="button"
+            aria-label="Enlarge beverage can photograph"
+          >
+            <img
+              src="images/photography-2.jpg"
+              alt="beverage cans photographed outdoors"
+              loading="lazy"
+            >
+          </button>
+        </figure>
+
+      </div>
+
+    </section>
+
+    <section id="art-direction" class="work-section">
+
+      <div class="section-heading">
+
+        <h2>Art Direction</h2>
+
+        <p class="section-description">
+          Selected projects combining concept development,
+          visual storytelling, and creative direction.
+        </p>
+
+      </div>
+
+      <div class="project-grid">
+
+        <figure class="project-card">
+          <button
+            class="image-button"
+            type="button"
+            aria-label="Enlarge first art direction project"
+          >
+            <img
+              src="images/art-direction-1.jpg"
+              alt="Zombies"
+              loading="lazy"
+            >
+          </button>
+        </figure>
+
+        <figure class="project-card">
+          <button
+            class="image-button"
+            type="button"
+            aria-label="Enlarge second art direction project"
+          >
+            <img
+              src="images/art-direction-2.jpg"
+              alt="Black and white wine photography"
+              loading="lazy"
+            >
+          </button>
+        </figure>
+
+      </div>
+
+    </section>
 
 
-    
-</main>
+    <section id="contact" class="contact-section">
+
+      <p class="section-label">Let’s Create</p>
+
+      <h2>Contact</h2>
+
+      <p>
+        Available for creative collaborations
+        and project inquiries.
+      </p>
+
+      <p>jonp809@gmail.com</p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>J.PADRINO / Creative Portfolio</p>
+    <a href="#top">Back to top</a>
+  </footer>
 
 
+  <dialog
+    id="imageDialog"
+    class="image-dialog"
+    aria-label="Enlarged project image"
+  >
 
-    </body>
+    <button
+      id="closeImageButton"
+      class="close-button"
+      type="button"
+      autofocus
+    >
+      Close ×
+    </button>
 
+    <button
+      id="enlargedImageButton"
+      class="enlarged-image-button"
+      type="button"
+      aria-label="Close enlarged image"
+    >
+      <img
+  id="enlargedImage"
+  src="images/photography-1.jpg"
+  alt="Fitness equipment and beverage cans photographed outdoors"
+>
+    </button>
 
+  </dialog>
 
+<div id="customCursor" class="custom-cursor"></div>
+  <script src="script.js"></script>
+
+</body>
 </html>
